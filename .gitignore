@@ -1,0 +1,95 @@
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+error_log
+access_log
+
+# Cache and temporary files
+cache/
+tmp/
+temp/
+*.cache
+*.tmp
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Uploads and user content
+uploads/
+public/uploads/
+storage/uploads/
+
+# Configuration files with sensitive data
+config/database.php
+config/app.php
+config/mail.php
+
+# Node modules (if using frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+build/
+public/build/
+
+# Testing
+.phpunit.result.cache
+coverage/
+tests/coverage/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Session files
+sessions/
+*.sess
+
+# Compiled files
+*.compiled.php
+*.min.js
+*.min.css
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# XAMPP specific
+xampp/
+htdocs/backup/
